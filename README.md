@@ -1,6 +1,5 @@
 
 
-```markdown
 # 👟 The Price Prediction of Sneakers Based on Machine Learning
 
 A full-stack Django web application that predicts sneaker prices using machine learning techniques. This platform allows users and admins to upload sneaker data, visualize pricing trends, and make intelligent price predictions based on historical data.
@@ -11,7 +10,7 @@ A full-stack Django web application that predicts sneaker prices using machine l
 
 **Sneaker Price Prediction** is a Django-based web app that enables users to forecast sneaker prices using machine learning. With a focus on user-friendly data interaction, it provides visual insights into sneaker trends and pricing, while also allowing admins to manage uploaded datasets.
 
----
+
 
 ## ✨ Features
 
@@ -35,33 +34,7 @@ A full-stack Django web application that predicts sneaker prices using machine l
 | Visualization | Matplotlib, Seaborn                   |
 | Templates     | Django Templating Engine              |
 
----
 
-## 📁 Project Structure
-
-```
-
-price prediction/
-├── manage.py
-├── db.sqlite3
-├── requirements.txt
-├── admins/                      # Admin views and models
-├── users/                       # User forms, models, views
-├── media/                       # Uploaded datasets
-├── static/                      # CSS, JS, images
-├── templates/                   # HTML files
-│   ├── base.html
-│   ├── AdminLogin.html
-│   ├── UserLogin.html
-│   └── ...
-├── ThePricePredictionOfsneakersBasedOnMachineLearning/
-│   ├── settings.py
-│   ├── urls.py
-│   └── views.py
-
-````
-
----
 
 ## ⚙️ Installation
 
@@ -74,37 +47,38 @@ price prediction/
 ### 🔌 Setup Instructions
 
 1. **Clone the repository**
-   ```bash
+```bash
    git clone https://github.com/yourusername/sneaker-price-prediction.git
    cd sneaker-price-prediction/price\ prediction
-````
+   ```
 
-2. **Create a virtual environment**
+
+3. **Create a virtual environment**
 
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
-3. **Install dependencies**
+4. **Install dependencies**
 
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Apply migrations**
+5. **Apply migrations**
 
    ```bash
    python manage.py migrate
    ```
 
-5. **Run the server**
+6. **Run the server**
 
    ```bash
    python manage.py runserver
    ```
 
-6. **Access the app**
+7. **Access the app**
    Open your browser and visit: [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
 ---
@@ -128,18 +102,7 @@ price prediction/
 
 📁 Model training scripts are located in a separate Jupyter Notebook or `ml_model/` folder (if added).
 
----
 
-## 📸 Screenshots
-
-*Add relevant screenshots or GIFs here:*
-
-* ✅ User Login Page
-* ✅ Upload Dataset Page
-* ✅ Prediction Form
-* ✅ Graphs & Visualizations
-
-> *(Tip: Add images in a `screenshots/` folder and embed them here using markdown.)*
 
 ---
 
