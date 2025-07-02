@@ -1,8 +1,4 @@
-Here’s a **refined and professional `README.md`** file tailored for your Django-based sneaker price prediction project. It's structured, clear, and engaging for users, contributors, and recruiters alike.
 
----
-
-```markdown
 # 🏷️ The Price Prediction of Sneakers Based on Machine Learning
 
 A full-stack Django web application that predicts sneaker prices using machine learning. This project allows users and admins to upload sneaker data, visualize market trends, and predict prices with ease. Built with clean UI, robust backend, and real data from the StockX sneaker dataset.
