@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-lu2e26r(itpddzyp_c0^e&p4_v=j0)fp6kg82jpkn$$_-4ba&2
 #DEBUG = True
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = ['.onrender.com','127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['.onrender.com']
 
 
 # Application definition
@@ -114,7 +114,6 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 
 USE_TZ = True
-
 
 
 # Static files (CSS, JavaScript, Images)
