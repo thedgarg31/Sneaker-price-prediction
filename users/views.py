@@ -78,7 +78,7 @@ def UserHome(request):
 def DatasetView(request):
     path = settings.MEDIA_ROOT + "//" + 'Clean_Shoe_Data.csv'
     df = pd.read_csv(path, nrows=100)
-    df = df.to_html
+    df = df.to_html()
     return render(request, 'users/viewdataset.html', {'data': df})
 
 def machinelearning(request):
