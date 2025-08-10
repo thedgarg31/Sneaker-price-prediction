@@ -23,6 +23,73 @@ A full-stack Django web application that predicts sneaker prices using machine l
 
 ---
 
+# 📁Project Structure
+
+```bash
+Sneaker-price-prediction/            
+├── github/workflows/                    
+│        └── greetings.yml                 
+├── ThePricePredictionOfsneakersBasedOnMachineLearning//
+│        ├── __pycache__/
+│        ├── __init__.py
+│        ├── asgi.py
+│        ├── settings.py
+│        ├── settings.py
+│        ├── views.py
+│        └── wsgi.py        
+├── admins/
+│     ├── __pycache__/
+│     ├── migrations/
+│     ├── __init__.py
+│     ├── admin.py
+│     ├── apps.py
+│     ├── models.py
+│     ├── tests.py
+│     └── views.py         
+├── media/ 
+│     ├── Clean_Shoe_Data.csv
+│     ├── Explored_Data.csv  
+│     ├── OrderDate_AvgPrice.csv     
+│     ├── Region_AvgPrice.csv    
+│     ├── Sneaker_Name_Avgprice.csv    
+│     └── StockX-Data-Contest-2019-3.csv 
+├── static/assets/
+│     ├── css/
+│     ├──img/ 
+│     ├── js/     
+│     ├── scss/       
+│     └── vendor/
+├── templates/ 
+│     ├── admins/
+│     ├── users/ 
+│     ├── AdminLogin.html   
+│     ├── UserLogin.html   
+│     ├── UserRegistrations.html
+│     ├── base.html  
+│     └── index.html 
+├── users/ 
+│     ├── __pycache__/
+│     ├── migrations/
+│     ├── __init__.py
+│     ├── admin.py
+│     ├── apps.py
+│     ├── forms.py
+│     ├── models.py
+│     ├── tests.py
+│     └── views.py                                            
+├── CODE_OF_CONDUCT.md            
+├── LICENSE                
+├── README.MD                   
+├── db.sqlite3                         
+├── fix-LSTM.ipynb  
+├── manage.py            
+├── requirements.txt                           
+└── settings.py             
+          
+
+```
+---
+
 ## 🛠️ Tech Stack
 
 | Layer         | Tools Used                           |
