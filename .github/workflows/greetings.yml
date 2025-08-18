@@ -1,11 +1,7 @@
 
 name: Greetings
 
-on:
-  issues:
-    types: [opened]
-  pull_request:
-    types: [opened]
+on: [pull_request_target, issues]
 
 jobs:
   greeting:
@@ -14,12 +10,8 @@ jobs:
       issues: write
       pull-requests: write
     steps:
-      - uses: dessant/first-interaction@v1
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-message: >
-            👋 Thanks for opening your first issue on Sneaker-price-prediction!  
-            We appreciate your contribution and will review it soon.
-          pr-message: >
-            🎉 Thanks for submitting your first pull request to Sneaker-price-prediction!  
-            We value your effort and a maintainer will review it shortly.
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: "👋 Thanks for opening your first issue! We appreciate your contribution and will review it soon."
+        pr-message: "🎉 Thanks for submitting your first pull request! We value your effort and a maintainer will review it shortly."
