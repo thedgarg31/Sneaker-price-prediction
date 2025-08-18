@@ -16,5 +16,9 @@ jobs:
       - uses: dessant/first-interaction@v1
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-message: "👋 Thanks for opening your first issue on Sneaker-price-prediction! We appreciate your contribution and will review it soon."
-          pr-message: "🎉 Thanks for submitting your first pull request to Sneaker-price-prediction! We value your effort and a maintainer will review it shortly."
+          issue-message: >
+            👋 Thanks for opening your first issue on Sneaker-price-prediction!  
+            We appreciate your contribution and will review it soon.
+          pr-message: >
+            🎉 Thanks for submitting your first pull request to Sneaker-price-prediction!  
+            We value your effort and a maintainer will review it shortly.
